@@ -1,0 +1,20 @@
+{
+  "name": "csv-line-numbering",
+  "version": "1.0.2",
+  "description": "Add the number of visible rows in the 1st column of the csv file .",
+  "main": "index.js",
+  "bin": {
+    "csv-line-numbering": "./index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "tashima taichi",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0"
+  }
+}
