@@ -1,7 +1,7 @@
 {
   "name": "csv-line-numbering",
-  "version": "1.0.3",
-  "description": "Add the number of visible rows in the 1st column of the csv file .",
+  "version": "1.0.4",
+  "description": "Add the number of visible rows in the 1st column of the csv file.",
   "main": "index.js",
   "bin": {
     "csv-line-numbering": "./index.js"
@@ -24,6 +24,10 @@
   ],
   "author": "tashima taichi",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:taichihub/csv-line-numbering.git"
+  },
   "dependencies": {
     "csv-parser": "^3.0.0",
     "csv-writer": "^1.6.0"
